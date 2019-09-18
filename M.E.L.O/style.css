@@ -1,0 +1,95 @@
+
+body{
+    margin: 0px;
+}
+
+.logo{
+    font-weight:bolder;
+    font-size:28px;
+    color:navajowhite;
+    font-family: cursive;
+}
+
+.background{
+    background:url('melo11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inherit{
+    background:transparent !important;
+}
+
+.opacity{
+    background-color:rgba(0,0,0,0.6);
+    height: auto;
+}
+
+.nav-item a{
+    font-weight: 500;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+
+.sloganTitle{
+    margin-top: 10%;
+    color:navajowhite;
+    font-size: 80px;
+    font-family: cursive;
+}
+
+/* card slider */
+
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+/* card slider */
+
+.slide{
+    margin-top: -10%;
+}
+.bg-footer{
+    background-color: maroon;
+} 
+
+.picfoot{
+    margin-top:0px;
+    padding: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.opacity2{
+background-color:rgba(0,0,0,0.6);
+height: auto;
+}
