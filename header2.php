@@ -27,15 +27,6 @@
             <li class="nav-item mr-5">
               <a class="nav-link text-white" href="#">PLAYLIST</a>
             </li>
-            <li class="nav-item dropdown mr-5">
-              <a class="nav-link text-white dropdown-toggle"  href="editprofile.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user prefix white-text"></i>
-              </a>
-              <div class="dropdown-menu" id="sidenave" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item naba sidenaver" href="editprofile.php"><span class="fa fa-user prefix"></span> &nbsp; Profile</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item sidenaver" name="signout" href="signout.php"><span class="fa fa-sign-out-alt prefix"></span> &nbsp;Signout</a>
-              </div>
-            </li>
           </ul>
         </div>
       </div>
@@ -49,7 +40,6 @@
         <div class="col-md-2 pl-0 sidenaver" id="sidenave">
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <a class="nav-link sidenaver" id="v-pills-home-tab" data-toggle="pill" href="song.php" role="tab" aria-selected="true"><span class="fa fa-music prefix"></span> &nbsp;<strong>My Music</strong></a>
-            <a class="nav-link sidenaver" href="editprofile.php" id="v-pills-profile-tab" data-toggle="pill" href="#" role="tab"  aria-selected="false"><span class="fa fa-user prefix"></span> &nbsp; <strong>Profile</strong></a>
             <a class="nav-link sidenaver" id="v-pills-messages-tab" data-toggle="pill" href="#" role="tab"  aria-selected="false"><span class="fa fa-play prefix"></span> &nbsp;<strong>Now Playing</strong></a>
             <a class="nav-link sidenaver" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab"  aria-selected="false"><span class="fa fa-compact-disc prefix"></span> &nbsp;<strong>Playlists</strong></a>
           </div>

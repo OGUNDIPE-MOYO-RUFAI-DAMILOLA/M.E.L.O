@@ -5,26 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="image2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="picture/image2.png" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/stylee.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/v4-shims.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    
 
     <title>M.E.L.O</title>
 </head>
 
 <body>
 
-    <div class="background">
+    <div class="background"  style="background-image: url('picture/dashpic.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
 
         <div class="opacity">
+
+        <!-- Navbar -->
 
             <nav class="navbar navbar-expand-lg sticky-top bg-transparent">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.php">
-                        <img src="logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                        <img src="picture/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
                         <span class="logo">M.E.L.O</span>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,32 +36,31 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto ">
                             <li class="nav-item active mr-5">
                                 <a class="nav-link text-white" href="index.php">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item mr-5">
-                                <a class="nav-link text-white" href="#">Pages</a>
+                                <a class="nav-link text-white" href="viewalbum.php">Albums</a>
                             </li>
                             <li class="nav-item mr-5">
-                                <a class="nav-link text-white" href="#">Music</a>
+                                <a class="nav-link text-white" href="song.php">Treanding</a>
+                            </li>
+
+                            <li class="nav-item mr-5">
+                                <a class="nav-link text-white" href="contactus.php">Contact Us</a>
+                            </li>
+                            <li class="nav-item mr-5 ">
+                                <a class="nav-link text-white btn btn-outline-danger" href="newsignup.php">Sign Up</a>
                             </li>
                             <li class="nav-item mr-5">
-                                <a class="nav-link text-white" href="#">Features</a>
-                            </li>
-                            <li class="nav-item mr-5">
-                                <a class="nav-link text-white" href="#">Contact Us</a>
-                            </li>
-                            <li class="nav-item mr-5">
-                                <a class="nav-link text-white btn btn-outline-danger" href="signup2.php">Sign Up</a>
-                            </li>
-                            <li class="nav-item mr-5">
-                                <a class="nav-link text-white btn btn-outline-danger" href="login2.php">Log In</a>
+                                <a class="nav-link text-white btn btn-outline-danger " href="newlogin.php">Log In</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+              <!-- Navbar -->
 
             <div class="jumbotron mt-5 inherit">
 
@@ -73,7 +76,6 @@
 
             </div>
 
-
         </div> <!--  Opacity -->
 
     </div> <!--  background -->
@@ -86,7 +88,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card1.jpg" alt="Carousel 1">
+                    <a href="viewgenressong.php?id=12"><img class="img-fluid" src="picture/card1.jpg" alt="Carousel 1"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class="text-wide p-b-2">Blues</h4>
@@ -97,7 +99,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card2.jpg" alt="Carousel 2">
+                    <a href="viewgenressong.php?id=11"><img class="img-fluid" src="picture/card2.jpg" alt="Carousel 2"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class="text-wide p-b-2">Classical</h4>
@@ -108,7 +110,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card3.jpg" alt="Carousel 3">
+                        <a href="viewgenressong.php?id=9"><img class="img-fluid" src="picture/card3.jpg" alt="Carousel 3"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class="text-wide p-b-2">Country</h4>
@@ -119,7 +121,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card4.jpg" alt="Carousel 4">
+                    <a href="viewgenressong.php?id=14"><img class="img-fluid" src="picture/card4.jpg" alt="Carousel 4"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class="text-wide p-b-2">Electronic</h4>
@@ -135,7 +137,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card5.jpg" alt="Carousel 5">
+                    <a href="viewgenressong.php?id=2"><img class="img-fluid" src="picture/card5.jpg" alt="Carousel 5"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class="text-wide p-b-2">Hip-hop</h4>
@@ -146,7 +148,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card6.jpg" alt="Carousel 6">
+                    <a href="viewgenressong.php?id=7"><img class="img-fluid" src="picture/card6.jpg" alt="Carousel 6"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class=" text-wide p-b-2"> Jazz</h4>
@@ -158,7 +160,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card7.jpg" alt="Carousel 7">
+                    <a href="viewgenressong.php?id=13"><img class="img-fluid" src="picture/card7.jpg" alt="Carousel 7"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class=" text-wide p-b-2">Reggae</h4>
@@ -170,7 +172,7 @@
             <div class="col-md-3 ">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="card8.jpg" alt="Carousel 8">
+                    <a href="viewgenressong.php?id=4"><img class="img-fluid" src="picture/card8.jpg" alt="Carousel 8"></a>
                     </div>
                     <div class="card-block p-t-2">
                         <h4 class=" text-wide p-b-2">Pop</h4>

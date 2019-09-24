@@ -11,6 +11,8 @@
 
 	$row = mysqli_fetch_array ($sql, MYSQLI_ASSOC);
 
+	$id = $row['USER_ID'];
+
 	$firstname = $row['USER_FIRSTNAME'];
 
 	$lastname = $row['USER_LASTNAME'];
@@ -21,11 +23,9 @@
 
     $dob = $row['USER_DOB'];
 
-    $countryid = $row['COUNTRY_ID'];
+    $country = $row['COUNTRY'];
 
-    $playlistid = $row['PLAYLIST_ID'];
-
-    $imageid = $row['IMAGE_ID'];
+    // $playlist = $row['PLAYLIST'];
 	
 	$username = $row['USER_USERNAME'];
 	
@@ -33,14 +33,13 @@
 	
 	$password = $row['USER_PASSWORD'];
 	
-	$picture = "<img src='photo/".$row['picture']." 
+	$picture = "<img src='userimage/".$row['USER_IMAGE']." 
 	alt='image'image'>";
-	
-	// $_FILES ['image'] ['name'];
 
 	if (!isset($_SESSION['logged_in'])) {
-
+		// echo "yes!!!";
 		header("locaton:index.php#get_started");
+		exit();
 	}
 
 ?>
